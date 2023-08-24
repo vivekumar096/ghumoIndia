@@ -1,0 +1,149 @@
+body{
+    background: linear-gradient(to right,#159957,#155799);
+    margin: 0;
+    padding: 0;
+    
+}        
+div{
+    
+    position: sticky;
+}
+div>ul{ 
+    background: linear-gradient(to right,#159957,#155799);
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    width:100vw;
+    height: 85px;
+    margin-top: 0;
+    /* padding: 2px; */
+    /* margin: 15px; */
+    /* border: 5px solid rgb(71, 81, 216);
+    border-radius: 30px; */
+    /* background-color: rgb(126, 126, 218); */
+    box-sizing: border-box;
+}
+div>ul>li{
+ 
+    padding: 10px;
+    font-size: larger;
+    color: white;
+    margin-left: 30px;
+    
+}
+div>ul>li:hover{
+    background-color: rgb(90, 216, 142);
+    border-radius: 30px;
+    height: fit-content;
+    cursor: pointer;
+}
+img{
+    width: 375px;
+    border-radius: 14px;
+    height:250px;
+    object-fit: cover;
+    margin-left: px;
+}
+#course{
+    background: none;
+    display: flex;
+    /* margin-left: 20px;
+    padding-left: 20px;
+    border:3px groove rgb(107, 193, 219);
+    height:400px;
+    font-family: "Raleway"; */
+    margin-top: 10px;
+    width: fit-content;
+    margin-left: 7px;
+    /* margin-top: 10vh;
+    margin-left: 20px; */
+   
+    border-radius: 12px;
+    
+    /* max-width: 300px; */
+}
+.card{
+    margin: 15px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 8px;
+    color:red;
+    /* border: 1px solid #bacdd8; */
+    width:30%;
+    font-size: 15px;
+    font-family: 'Raleway';
+    transition-property: box-shadow;
+    transition-duration: 0.8s;
+    transition: transform 0.6s ease-in-out;
+}
+.card:hover{
+    box-shadow: 10px 13px 10px rgb(71, 207, 200);
+    transform: scale(1.05);
+}
+
+button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #0077ff;
+    background-color: #e0efff;            
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+button:focus,
+button:hover {
+    background-color:#4473a5 ;
+    color: #b8cadf;
+}
+.tag {
+    padding: 4px 8px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #788697;
+}
+.video{
+    margin: 30px;
+}
+
+.intro{
+   
+    border-radius: 12px;
+    display: flex;
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway";
+    margin:0;
+    margin-right: 0;
+    /* background-image: url(2.jpg);
+    background-size: 95vw 60vh; */
+   
+    object-fit: cover;
+    width: 90vw;
+    height:60vh;
+    font-size:35px;
+    
+}
+
+#first{
+    background-image: url(3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#second{
+    margin: 0;
+    padding: 0;
+}
+.card img{
+    margin-left: 3px;
+}
+
+#videoBG {
+    position: fixed;
+    z-index: -1;
+
+}
